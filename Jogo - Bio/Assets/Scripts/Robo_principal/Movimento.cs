@@ -13,13 +13,6 @@ public class Movimento : MonoBehaviour
     public float alturaDoPulo;
     public float raioDeVerificacao;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -39,11 +32,13 @@ public void MovimentarJogador()
 
     if (inputDoMovimento > 0)
     {
-	    oSpriteRenderer.flipX = false; //Não gira o personagem
+	    Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z); 
+        transform.rotation = Quaternion. Euler(rotator); 
     }
     if (inputDoMovimento < 0)
     {   
-	    oSpriteRenderer.flipX = true; //Gira o personagem
+	    Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z); 
+        transform.rotation = Quaternion. Euler(rotator);
     }
 }
 
@@ -60,4 +55,5 @@ public void Pular()
 	oRigidBody.velocity = new UnityEngine.Vector2(oRigidBody.velocity.x, 0);
     }
 }
+
 }
