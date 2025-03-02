@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: 50fcd707daa6e2041b4833ed603095d5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_0"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2853
+        width: 1040
+        height: 626
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c551810d265549b99fd1f587a43bc
+      internalID: -239782257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_1"
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 2940
+        width: 577
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870f0210e7e18da42b237f647949999f
+      internalID: 796063099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_2"
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 2816
+        width: 856
+        height: 640
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db5e8d89ded4504f90a82a44cd8729b
+      internalID: -1492543766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_3"
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 2985
+        width: 701
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c352561c5c432494a8b951f749cd63fb
+      internalID: -100972761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_4"
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2069
+        width: 811
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc5dfa7ece4ba64ca04df7c8a14784f
+      internalID: 87060411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_5"
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2307
+        width: 772
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886467df97600864bb5a5685f3701707
+      internalID: -309736943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_6"
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 2322
+        width: 448
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649cd0038a609ba4b86cfa723dd1841a
+      internalID: -1017516430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_7"
+      rect:
+        serializedVersion: 2
+        x: 2221
+        y: 2401
+        width: 472
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67769a1e27f5884d8044d53f8058dcf
+      internalID: 1695000399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_8"
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 2454
+        width: 569
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532da2077e6a6634c90d99a641431fa2
+      internalID: 2103819086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_9"
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1522
+        width: 1033
+        height: 517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f555f3dd9721634aa328211fe0e3810
+      internalID: 1901973925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_10"
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 1481
+        width: 1040
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0ec0134229bc84e90f78bc2c70b52c
+      internalID: 327354143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_11"
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1594
+        width: 1285
+        height: 701
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6a90d5a5a503f42ad86c58bc829bd1
+      internalID: 1565365761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_12"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 365
+        width: 1045
+        height: 1108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9ca166e9ccc5646b535920f41b1546
+      internalID: -1663873312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_13"
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 146
+        width: 769
+        height: 1226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce68ef045fb633d4ea2a042bf494b3e7
+      internalID: -18642608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_14"
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 259
+        width: 656
+        height: 1154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70090acdf3cfca64db87581eaa71d6d0
+      internalID: 1027939647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "pedrasCombina\xE7\xE3o_estomago_15"
+      rect:
+        serializedVersion: 2
+        x: 2738
+        y: 176
+        width: 731
+        height: 1188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f154c47567c84e94aa41fe4f23506443
+      internalID: -152650947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "pedrasCombina\xE7\xE3o_estomago_0": -239782257
+      "pedrasCombina\xE7\xE3o_estomago_1": 796063099
+      "pedrasCombina\xE7\xE3o_estomago_10": 327354143
+      "pedrasCombina\xE7\xE3o_estomago_11": 1565365761
+      "pedrasCombina\xE7\xE3o_estomago_12": -1663873312
+      "pedrasCombina\xE7\xE3o_estomago_13": -18642608
+      "pedrasCombina\xE7\xE3o_estomago_14": 1027939647
+      "pedrasCombina\xE7\xE3o_estomago_15": -152650947
+      "pedrasCombina\xE7\xE3o_estomago_2": -1492543766
+      "pedrasCombina\xE7\xE3o_estomago_3": -100972761
+      "pedrasCombina\xE7\xE3o_estomago_4": 87060411
+      "pedrasCombina\xE7\xE3o_estomago_5": -309736943
+      "pedrasCombina\xE7\xE3o_estomago_6": -1017516430
+      "pedrasCombina\xE7\xE3o_estomago_7": 1695000399
+      "pedrasCombina\xE7\xE3o_estomago_8": 2103819086
+      "pedrasCombina\xE7\xE3o_estomago_9": 1901973925
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

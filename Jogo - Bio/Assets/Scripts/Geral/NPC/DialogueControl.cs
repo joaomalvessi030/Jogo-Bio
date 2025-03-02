@@ -28,8 +28,7 @@ public class DialogueControl : MonoBehaviour
     public void Speech(Sprite p, string[] txt, string actorName)
     {
         dialogueObj.SetActive(true);
-        mov.velocidadeDoJogador = 0;
-        mov.alturaDoPulo = 0;
+        mov.enabled = false;
         dialogOpened = true;
         profile.sprite = p;
         sentences = txt;
@@ -63,8 +62,7 @@ public class DialogueControl : MonoBehaviour
                 index = 0;
                 dialogueObj.SetActive(false);
                 dialogOpened = false;
-                mov.velocidadeDoJogador = 8;
-                mov.alturaDoPulo = 20;
+                mov.enabled = true;
             }
 
         }

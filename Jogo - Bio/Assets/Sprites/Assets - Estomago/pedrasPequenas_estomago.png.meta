@@ -1,0 +1,963 @@
+fileFormatVersion: 2
+guid: b08143f4ca1e0e347b515863887a67b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 3204
+        width: 262
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc1fbfce7b942444945c50fef21bfb3
+      internalID: 1106697119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 3221
+        width: 228
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d401637be382e1b459ed5772c55e972e
+      internalID: -1748718790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_2
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 3218
+        width: 235
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3debdf6d87c0a5e43b70bead11eaf4e9
+      internalID: -922319775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_3
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 3162
+        width: 326
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6226f70fee5037748ad86003eb853182
+      internalID: -35853258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_4
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 3162
+        width: 319
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7efa2bfb94b434e885e7b8e7ce045e
+      internalID: 810876583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_5
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 3155
+        width: 343
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295ea0063b4aa7443b688134b769352c
+      internalID: -128603451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_6
+      rect:
+        serializedVersion: 2
+        x: 2387
+        y: 3167
+        width: 333
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0436918a979a5e458e21e82ee840227
+      internalID: 907468906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_7
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 2839
+        width: 279
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b456143f0be334296beda6a2ed1473
+      internalID: 1957417424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_8
+      rect:
+        serializedVersion: 2
+        x: 3188
+        y: 3010
+        width: 326
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94191d87d8235bb4db9f4ae0012686a1
+      internalID: 1953288497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_9
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 2846
+        width: 353
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c11df67896303428c98f1c7756de6b
+      internalID: -328719410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_10
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2875
+        width: 228
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ced9f5cdac1b164985319da3a4575d2
+      internalID: -909749514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_11
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2871
+        width: 172
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80f0d9777520204db569c1c73a82c04
+      internalID: 458211592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_12
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 2812
+        width: 255
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81808fd7d826b914693482f0ff719125
+      internalID: -919616636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_13
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2829
+        width: 309
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d96f26d2123c184393c5c4a2c385371
+      internalID: 1942737032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_14
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 2748
+        width: 678
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022deda54492c7e42b75c33f36853b9c
+      internalID: 1510563469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_15
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 2459
+        width: 319
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd803932751f6e4d8f582d6579db53e
+      internalID: -1129190441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_16
+      rect:
+        serializedVersion: 2
+        x: 3252
+        y: 2439
+        width: 230
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d185fddc2e64fe640b514b7fc39edb5a
+      internalID: 258278175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_17
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2353
+        width: 385
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5417602274c9ce546aa9a1ff7164929a
+      internalID: 1808991775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_18
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 2270
+        width: 336
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85988d4a666428440b7de7331c57c667
+      internalID: 467562623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_19
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 2270
+        width: 321
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f99107c46f8f845aaf4b3e10f52adc
+      internalID: 83448278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_20
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 2265
+        width: 343
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b3c0c219ad58418ed3dd1be0c1589
+      internalID: -1984958497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_21
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 2133
+        width: 549
+        height: 485
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41fec18a4da4c4499da61f84573a38f
+      internalID: 118454572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_22
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 2111
+        width: 549
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac8efa5ed2c53d4d8c75a2915076bca
+      internalID: -155507576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_23
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 962
+        width: 1304
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c347aff7c784b1b4280afa02980574f6
+      internalID: -1746127101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_24
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1711
+        width: 270
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979850f2436867459c2dda71fcb3aa1
+      internalID: -644864761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_25
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1726
+        width: 240
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbff11e787952b4fad241c0ca30f527
+      internalID: 329211146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_26
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1716
+        width: 247
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967baffa4b6170a468913f1e1e673923
+      internalID: -2092876146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_27
+      rect:
+        serializedVersion: 2
+        x: 2517
+        y: 1775
+        width: 257
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2d0b84792d1fa4492c080d821748f3
+      internalID: -1227068263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_28
+      rect:
+        serializedVersion: 2
+        x: 2872
+        y: 1716
+        width: 250
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3854f0cd75260a344bddfba9a9351c94
+      internalID: -1835950162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_29
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 819
+        width: 1296
+        height: 736
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7468e1c0835384db05a86b4482983c
+      internalID: -1679334446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_30
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1136
+        width: 348
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4450c67d53acf442b9f5aa2858b2b31
+      internalID: -2131237050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_31
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 1140
+        width: 351
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a45907bcbb0b949be58a86aa1e7ee8
+      internalID: 517217082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_32
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 62
+        width: 632
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f100d71bdfb00146a9d43ce85e76035
+      internalID: -171940884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_33
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 65
+        width: 704
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f461c597471db45b354953a4d977b1
+      internalID: -827020183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_34
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 67
+        width: 576
+        height: 583
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a10c08882662d459bd685578554773
+      internalID: -1894298359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_35
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 48
+        width: 681
+        height: 654
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7f8fececb62fa43a248ec43c3fb65c
+      internalID: 701737453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_36
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 60
+        width: 370
+        height: 1036
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beacc6389c6c204ebbee99204d2e28d
+      internalID: -211793276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pedrasPequenas_estomago_37
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 57
+        width: 356
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b94ed6ad0c111b4482df93f38071d7f
+      internalID: 877346143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pedrasPequenas_estomago_0: 1106697119
+      pedrasPequenas_estomago_1: -1748718790
+      pedrasPequenas_estomago_10: -909749514
+      pedrasPequenas_estomago_11: 458211592
+      pedrasPequenas_estomago_12: -919616636
+      pedrasPequenas_estomago_13: 1942737032
+      pedrasPequenas_estomago_14: 1510563469
+      pedrasPequenas_estomago_15: -1129190441
+      pedrasPequenas_estomago_16: 258278175
+      pedrasPequenas_estomago_17: 1808991775
+      pedrasPequenas_estomago_18: 467562623
+      pedrasPequenas_estomago_19: 83448278
+      pedrasPequenas_estomago_2: -922319775
+      pedrasPequenas_estomago_20: -1984958497
+      pedrasPequenas_estomago_21: 118454572
+      pedrasPequenas_estomago_22: -155507576
+      pedrasPequenas_estomago_23: -1746127101
+      pedrasPequenas_estomago_24: -644864761
+      pedrasPequenas_estomago_25: 329211146
+      pedrasPequenas_estomago_26: -2092876146
+      pedrasPequenas_estomago_27: -1227068263
+      pedrasPequenas_estomago_28: -1835950162
+      pedrasPequenas_estomago_29: -1679334446
+      pedrasPequenas_estomago_3: -35853258
+      pedrasPequenas_estomago_30: -2131237050
+      pedrasPequenas_estomago_31: 517217082
+      pedrasPequenas_estomago_32: -171940884
+      pedrasPequenas_estomago_33: -827020183
+      pedrasPequenas_estomago_34: -1894298359
+      pedrasPequenas_estomago_35: 701737453
+      pedrasPequenas_estomago_36: -211793276
+      pedrasPequenas_estomago_37: 877346143
+      pedrasPequenas_estomago_4: 810876583
+      pedrasPequenas_estomago_5: -128603451
+      pedrasPequenas_estomago_6: 907468906
+      pedrasPequenas_estomago_7: 1957417424
+      pedrasPequenas_estomago_8: 1953288497
+      pedrasPequenas_estomago_9: -328719410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Scripts/Geral/Menu/menu-button.uss?fileID=7433441132597879392&amp;guid=9fc28a7e214fc984ebda11553c08f2f6&amp;type=3#menu-button" />
-    <ui:VisualElement style="flex-grow: 1; width: 55%; height: 100%; margin-left: 0; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.63);">
+    <ui:VisualElement style="flex-grow: 1; width: 55%; height: 100%; margin-left: 0; -unity-background-image-tint-color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0); justify-content: flex-start; align-self: center;">
         <ui:VisualElement name="Logo" style="flex-grow: 1; -unity-text-align: upper-left; justify-content: center;" />
         <ui:VisualElement name="Buttons" style="flex-grow: 1; justify-content: center; margin-bottom: 20%;">
             <ui:Button text="Iniciar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="menu-button" />
