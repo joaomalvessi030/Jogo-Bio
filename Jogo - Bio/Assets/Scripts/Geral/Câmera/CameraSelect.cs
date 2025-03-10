@@ -11,8 +11,11 @@ public class CameraSelect : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            virtualCam.SetActive(true);
-
+            // Verifica se virtualCam não é null antes de ativar
+            if (virtualCam != null)
+            {
+                virtualCam.SetActive(true);
+            }
         }
     }
 
@@ -20,7 +23,11 @@ public class CameraSelect : MonoBehaviour
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
-            virtualCam.SetActive(false);
+            // Verifica se virtualCam não é null antes de desativar
+            if (virtualCam != null)
+            {
+                virtualCam.SetActive(false);
+            }
         }
     }
 }
