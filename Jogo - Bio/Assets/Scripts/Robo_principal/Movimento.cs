@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.UIElements; 
 using UnityEditor; 
 using UnityEngine.Events;
+using System;
 
 public class Movimento : MonoBehaviour
 {
@@ -33,10 +34,10 @@ public class Movimento : MonoBehaviour
 
     // Sistema de dash
     bool podeDash = true;
-    bool eDash;
-    float poderDash = 50f;
-    float tempoDash = 0.3f;
-    float esperaDash = 0.5f;
+    bool estaDash;
+    private float poderDash = 80f;
+    float tempoDash = 0.1f;
+    private float recargaDash = 1f;
     [SerializeField] TrailRenderer tr;
 
     void Start()
@@ -46,29 +47,29 @@ public class Movimento : MonoBehaviour
 
     void Update()
     {
+        if (estaDash)
+        {
+            return;
+        }
         Pular();
         MoveAnim();
         JumpAnim();
         Dano();
 
-        if ((Input.GetKeyDown(KeyCode.LeftShift) || Input.GetMouseButtonDown(1)) && podeDash)
+        //Dash
+        if (Input.GetKeyDown(KeyCode.LeftShift) && podeDash)
         {
             StartCoroutine(Dash());
-        }
-
-        if (eDash)
-        {
-            return;
         }
     }
 
     void FixedUpdate()
     {
-        KnockLogic();
-        if (eDash)
+        if (estaDash)
         {
             return;
         }
+        KnockLogic();
     }
 
     void KnockLogic()
@@ -162,44 +163,28 @@ public class Movimento : MonoBehaviour
             damageArea.SetActive(false);
     }
 
-    IEnumerator Dash()
+    private IEnumerator Dash()
     {
         podeDash = false;
-        eDash = true;
+        estaDash = true;
 
-        float gravidadeOriginal = oRigidBody.gravityScale;
-        oRigidBody.gravityScale = 0f;
+        float originalGravity = oRigidBody.gravityScale;
+        oRigidBody.gravityScale = 0;
 
-        float dashDistancia = 5f;
-        Vector2 direcaoDash = transform.right;
-
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direcaoDash, dashDistancia, LayerMask.GetMask("Obstaculos"));
-        if (hit.collider != null)
-        {
-            transform.position = new Vector2(hit.point.x, transform.position.y);
-        }
-        else
-        {
-            Vector2 novaPosicao = (Vector2)transform.position + direcaoDash * dashDistancia;
-            transform.position = novaPosicao;
-        }
-
-        if (tr != null)
-        {
-            tr.emitting = true;
-        }
+        oRigidBody.velocity = new Vector2(transform.right.x * poderDash, 0f);
 
         yield return new WaitForSeconds(tempoDash);
 
-        if (tr != null)
-        {
-            tr.emitting = false;
-        }
+        oRigidBody.gravityScale = originalGravity;
+        estaDash = false;
+        StartCoroutine(RecargaDash());
+    }
 
-        oRigidBody.gravityScale = gravidadeOriginal;
-        eDash = false;
-
-        yield return new WaitForSeconds(esperaDash);
+    private IEnumerator RecargaDash()
+    {
+        yield return new WaitForSeconds(recargaDash);
         podeDash = true;
     }
+    
+
 }
