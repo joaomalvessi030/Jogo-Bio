@@ -16,10 +16,11 @@ public class Movimento : MonoBehaviour
     public bool estaNoChao;
     public Transform verificadorDeChao;
     public LayerMask layerDoChao;
+    public LayerMask layerDaParede; // Novo layer para parede
     public float alturaDoPulo;
     public float raioDeVerificacao;
 
-    public int quantidadeDePulos = 2;
+    public int quantidadeDePulos = 1;
     private int pulosRestantes;
 
     public float kBForce;
@@ -80,11 +81,11 @@ public class Movimento : MonoBehaviour
         }
         else if (isKnock)
         {
-            oRigidBody.velocity = new Vector2(-kBForce, kBForce);
+            oRigidBody.velocity = new Vector2(-kBForce, kBForce); // Inverter para knockback em direção oposta
         }
         else
         {
-            oRigidBody.velocity = new Vector2(kBForce, kBForce);
+            oRigidBody.velocity = new Vector2(kBForce, kBForce); // Usar valores mais lógicos dependendo da direção
         }
         kBCount -= Time.deltaTime;
     }
@@ -110,6 +111,7 @@ public class Movimento : MonoBehaviour
     public void Pular()
     {
         estaNoChao = Physics2D.OverlapCircle(verificadorDeChao.position, raioDeVerificacao, layerDoChao);
+        bool estaNaParede = Physics2D.OverlapCircle(verificadorDeChao.position, raioDeVerificacao, layerDaParede); // Verifica parede
 
         // Reseta o número de pulos ao tocar o chão
         if (estaNoChao)
@@ -140,7 +142,7 @@ public class Movimento : MonoBehaviour
     {
         anim.SetFloat("Vertical", oRigidBody.velocity.y);
         anim.SetBool("groundCheck", estaNoChao);
-        anim.SetTrigger("TriggerMove");
+        anim.SetBool("wallCheck", Physics2D.OverlapCircle(verificadorDeChao.position, raioDeVerificacao, layerDaParede)); // Nova verificação de parede
     }
 
     void Dano()
@@ -171,7 +173,7 @@ public class Movimento : MonoBehaviour
         float originalGravity = oRigidBody.gravityScale;
         oRigidBody.gravityScale = 0;
 
-        oRigidBody.velocity = new Vector2(transform.right.x * poderDash, 0f);
+        oRigidBody.velocity = new Vector2(transform.right.x * poderDash, 0f); // Dash para frente
 
         yield return new WaitForSeconds(tempoDash);
 
@@ -185,6 +187,4 @@ public class Movimento : MonoBehaviour
         yield return new WaitForSeconds(recargaDash);
         podeDash = true;
     }
-    
-
 }

@@ -532,7 +532,7 @@ GameObject:
   - component: {fileID: 43574327}
   - component: {fileID: 43574329}
   - component: {fileID: 43574328}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: chao (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1381,7 +1381,7 @@ GameObject:
   - component: {fileID: 235565387}
   - component: {fileID: 235565389}
   - component: {fileID: 235565388}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: chao (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3480,7 +3480,7 @@ GameObject:
   - component: {fileID: 779002319}
   - component: {fileID: 779002321}
   - component: {fileID: 779002320}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: chao (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3625,8 +3625,8 @@ Transform:
   m_GameObject: {fileID: 781927902}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 176, y: 27, z: -0.15773016}
-  m_LocalScale: {x: 2.3972156, y: 1.6715145, z: 1}
+  m_LocalPosition: {x: 174.9585, y: 27, z: -0.15773016}
+  m_LocalScale: {x: 2.3088794, y: 1.6715145, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1280200352}
@@ -5071,7 +5071,7 @@ GameObject:
   - component: {fileID: 1094225730}
   - component: {fileID: 1094225732}
   - component: {fileID: 1094225731}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: chao (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6279,7 +6279,7 @@ GameObject:
   - component: {fileID: 1655210610}
   - component: {fileID: 1655210612}
   - component: {fileID: 1655210611}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: chao (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7421,8 +7421,12 @@ MonoBehaviour:
   layerDoChao:
     serializedVersion: 2
     m_Bits: 128
+  layerDaParede:
+    serializedVersion: 2
+    m_Bits: 0
   alturaDoPulo: 20
   raioDeVerificacao: 0.34
+  quantidadeDePulos: 2
   kBForce: 6
   kBCount: 0
   kBTime: 0.2
