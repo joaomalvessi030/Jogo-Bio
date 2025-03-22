@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/Op\xE7\xF5esScene.unity"
     guid: e21b6723f04137048aa0d54663a0c0fd
+  - enabled: 1
+    path: Assets/Scenes/Estomago/Estomago_1 1.unity
+    guid: b1da514602b95cc4180b0bac7e0aff93
+  - enabled: 1
+    path: Assets/Scenes/Estomago/cidade.unity
+    guid: 54aa4db408656dc4f9814c4ed8b38b1c
   m_configObjects: {}
