@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 26285571}
   - component: {fileID: 26285570}
   - component: {fileID: 26285569}
+  - component: {fileID: 26285572}
   m_Layer: 0
   m_Name: CameraPrincipal
   m_TagString: Untagged
@@ -287,6 +288,21 @@ Transform:
   - {fileID: 2075277786}
   m_Father: {fileID: 2061809635}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &26285572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26285568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f1e531a23ba9424eb4ffbf35468ec30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  virtualCamera: {fileID: 26285570}
+  verticalOffset: 15
+  smoothSpeed: 0.15
 --- !u!1 &48032216
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,18 +899,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.003640823, y: -0.002324231}
+  m_Offset: {x: -0.003640771, y: 0.051433086}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.27, y: 0.48}
+    oldSize: {x: 2.85, y: 4.65}
     newSize: {x: 0.27, y: 0.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.24496932, y: 0.49651337}
+  m_Size: {x: 3.018393, y: 4.3698196}
   m_EdgeRadius: 0
 --- !u!50 &138074428
 Rigidbody2D:
@@ -964,9 +980,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: -403546381, guid: cc69bf036d929a140b52100505cadb3b, type: 3}
+  m_Sprite: {fileID: -383514198, guid: c75144aafc004bc48a22b277f6af8af9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.27, y: 0.48}
@@ -984,8 +1000,8 @@ Transform:
   m_GameObject: {fileID: 138074423}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -226.9, y: -47.2, z: -0.9267568}
-  m_LocalScale: {x: 10, y: 10, z: 0}
+  m_LocalPosition: {x: -153.9, y: -48.2, z: -0.9267568}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 549200163}
@@ -3650,7 +3666,7 @@ Transform:
   m_GameObject: {fileID: 549200162}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.221, z: 0}
+  m_LocalPosition: {x: 0, y: -2.32, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6154,7 +6170,7 @@ Transform:
   m_GameObject: {fileID: 841555485}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -88.47331, y: 2.7563229, z: -9.967282}
+  m_LocalPosition: {x: -126.89331, y: -27.773678, z: -9.967282}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9927,7 +9943,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 1
-  m_Offset: {x: -79.41518, y: -69.167206}
+  m_Offset: {x: -79.41518, y: -79.295616}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9938,7 +9954,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 203.31058, y: 162.36874}
+  m_Size: {x: 203.31058, y: 142.11192}
   m_EdgeRadius: 0
 --- !u!66 &1324164855
 CompositeCollider2D:
@@ -9980,9 +9996,9 @@ CompositeCollider2D:
   - m_Collider: {fileID: 1324164854}
     m_ColliderPaths:
     - - X: 222401120
-        Y: 120171664
+        Y: -82396544
       - X: -1810704640
-        Y: 120171664
+        Y: -82396544
       - X: -1810704640
         Y: -1503515776
       - X: 222401120
@@ -10032,8 +10048,8 @@ CompositeCollider2D:
     - - {x: -179.7933, y: -150.91138}
       - {x: -179.79326, y: -150.35158}
       - {x: 22.240112, y: -150.35155}
-      - {x: 22.240084, y: 12.017166}
-      - {x: -181.07047, y: 12.017137}
+      - {x: 22.240084, y: -8.239655}
+      - {x: -181.07047, y: -8.239684}
       - {x: -181.0705, y: -61.689793}
       - {x: -188.27408, y: -61.689762}
       - {x: -188.27411, y: 37.960045}
