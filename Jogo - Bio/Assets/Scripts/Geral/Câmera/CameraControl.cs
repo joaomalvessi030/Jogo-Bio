@@ -4,7 +4,7 @@ using Cinemachine;
 public class CameraControl : MonoBehaviour
 {
     public CinemachineVirtualCamera virtualCamera;
-    public float verticalOffset = 2f;
+    public float verticalOffset = 20f;
     public float smoothSpeed = 0.125f;
     private CinemachineFramingTransposer framingTransposer;
     private Vector3 originalOffset;
